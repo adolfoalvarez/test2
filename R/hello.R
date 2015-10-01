@@ -28,6 +28,7 @@ hello <- function(x="Analyx", formal = TRUE) {
 #' hello2("Adolfo", formal = FALSE)
 #' @export
 hello2 <- function(x="Analyx", formal = TRUE, bye = TRUE) {
+  #This comment is in the dev branch
   if(bye){
     bye(x)
   } else{
