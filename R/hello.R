@@ -51,3 +51,5 @@ hello2 <- function(x="Analyx", formal = TRUE, bye = TRUE) {
 bye <- function(x="Analyx") {
   x %>% paste0("bye ", .) %>% print()
   }
+#And this is an error
+print("error")
