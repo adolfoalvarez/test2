@@ -1,0 +1,15 @@
+Package: test2
+Type: Package
+Title: This is a Test Package
+Version: 0.1
+Date: 2015-09-30
+Authors@R: person("Adolfo", "Alvarez", email="adolfo.alvarez@analyx.com", role=c("aut", "cre"))
+Description: This is a simple test package intended
+    to serve as example for the Analyx workshop.
+License: GPL-2
+LazyData: TRUE
+Depends: 
+    magrittr
+Suggests: knitr,
+    testthat
+VignetteBuilder: knitr
