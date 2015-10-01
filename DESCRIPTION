@@ -8,8 +8,10 @@ Description: This is a simple test package intended
     to serve as example for the Analyx workshop.
 License: GPL-2
 LazyData: TRUE
-Depends: 
+Depends:
     magrittr
 Suggests: knitr,
     testthat
 VignetteBuilder: knitr
+URL: http://github.com/adolfoalvarez/test2
+BugReports: http://github.com/adolfoalvarez/test2/issues
